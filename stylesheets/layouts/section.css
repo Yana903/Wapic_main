@@ -1,0 +1,19 @@
+.header, .section-plan {
+    background: #eef1ec;
+}
+
+.section-plan {
+    padding-bottom: 65px;
+}
+
+.section-included {
+    padding-bottom: 97px;
+    padding-top: 78px;
+}
+
+.section-details {
+    background-image: url("../../images/bg-details.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

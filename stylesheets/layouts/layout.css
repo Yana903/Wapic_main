@@ -1,0 +1,34 @@
+.layout {
+    display: flex;
+}
+
+.layout .layout-item {
+    display: flex;
+}
+
+.layout-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+}
+
+.layout-plan, .layout-included {
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout-details .layout-item {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-inform {
+    max-width: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
