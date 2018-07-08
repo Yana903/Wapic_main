@@ -35,3 +35,13 @@ svg[class*=" icon-"] {
   fill: #6fb048 !important;
 }
 
+.card-about svg {
+    font-size: 56px;
+}
+
+.card-about svg, .card-feature svg {
+    color: #6fb048;
+}
+
+
+
