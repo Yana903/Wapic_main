@@ -140,6 +140,16 @@ ul {
     margin-bottom: 30px;
 }
 
+.card-plan .blue {
+    background: #83a7a5;
+}
+
+.card-plan .blue:hover {
+    background: #6f8f8d;
+}
+
+769795
+
 .heading {
     position: relative;
     margin-bottom: 30px;
