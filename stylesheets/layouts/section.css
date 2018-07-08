@@ -21,3 +21,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.section-team {
+	background-color: #eef1ec;
+}
+
+.section-team, .section-about, .section-features, .section-review {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}

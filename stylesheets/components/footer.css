@@ -1,19 +1,14 @@
 .page-footer {
 	position: relative;
 }
-.layout-footer::before {
-	content: '';
-	border-top: 1px solid #eef1ec;
-	position: absolute;
-	width: 100%;
-	padding-bottom: 70px;
-}
+
 .layout-footer {
 	display: flex;
 	align-items: center; 
 	justify-content: space-between;
-	
+	border-top: 1px solid #eef1ec;
 }
+
 .layout-footer > .layout-item {
 	margin-top: 20px;
 }
