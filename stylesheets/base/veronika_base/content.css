@@ -6,8 +6,6 @@
   --base-body-line-height:                         var(--global-line-height);
   --base-body-color:                               var(--global-color);
 
-  --base-alien-font:                               var(--global-alien-font-family);
-
   --base-link-color:                               var(--global-link-color);
   --base-link-text-decoration:                     none;
 
@@ -335,9 +333,6 @@ h6, .h6 {
   font-size: var(--base-h6-font-size);
   line-height: var(--base-h6-line-height);
 }
-.h2-fat {
-  font-weight: 400;
-}
 .very-small-text {
   font-size: var(--base-very-small-font-size);
 }
@@ -347,6 +342,7 @@ h6, .h6 {
 .medium-text {
   font-size: var(--base-medium-font-size);
 }
+
 ul,
 ol {
   padding-left: var(--base-list-padding-left);
