@@ -32,3 +32,11 @@
     flex-direction: column;
     justify-content: center;
 }
+.layout-contacts {
+  display: flex;
+  flex-direction: column;
+}
+.layout-contacts > .layout-item:first-child {
+  display: flex;
+  justify-content: center;
+}
