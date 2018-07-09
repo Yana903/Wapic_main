@@ -249,9 +249,3 @@ ul {
 .primary-color {
     color: #6fb048;
 }
-.layout-header { 
-    border-bottom: 1px solid #4e6e6f;
-}
-.inverse-header {
-    border-bottom: 1px solid #b8ccc8;
-}
