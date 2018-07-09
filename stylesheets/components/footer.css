@@ -53,6 +53,8 @@
 .github {
 	background-color: #333333;
 }
-
+.social-icon:hover {
+	opacity: 0.7;
+}
 
 
