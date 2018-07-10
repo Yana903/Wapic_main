@@ -78,4 +78,30 @@
 	color: #6fb048;
 	line-height: 1.5;
 	padding-right: 10px;
+} 
+
+@media screen  and (max-width: 815px) {
+	.section-contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.section-contacts > .section-item:first-child {
+		width: 100%
+	}
+	.section-contacts > .section-item:nth-child(2) {
+		width: 100%
+
+	}
+	.card-form {
+		margin-right: 30px;
+	}
+	.card-contacts {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+}
+@media screen  and (min-width: 750px) {
+
 }
