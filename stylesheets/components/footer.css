@@ -58,3 +58,11 @@
 }
 
 
+@media screen  and (max-width: 320px) {
+	.layout-footer {
+		flex-direction: column-reverse;
+	}
+	.layout-footer > .layout-item:first-child {
+	    margin-right: 0;
+	}
+}
