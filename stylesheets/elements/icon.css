@@ -55,12 +55,4 @@ svg[class*=" icon-menu"]
   color: var(--global-link-hover-color);
 }
 
-@media screen and (max-width: 640px) {
-  svg[class^="icon-menu"],
-  svg[class*=" icon-menu"]
-{
-    display: inline-block;
-}
-
-
 

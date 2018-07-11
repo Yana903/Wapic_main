@@ -1,7 +1,9 @@
 .grid-team .grid-item {
 	margin-right: 20px;
 	margin-left: 20px;
-	width: calc(100%/3 - 40px)
+	width: calc(100%/3 - 40px);
+	min-height: 240px;
+
 }
 
 .card-team {
@@ -10,14 +12,10 @@
 
 .card-team h6 {
 	margin-bottom: 0;
+	margin-top: 15px;
 }
 
 .card-team p {
 	margin-top: 0;
 }
 
-
-.card-team img {
-	min-height: 202px;
-	width: 100%;
-}
