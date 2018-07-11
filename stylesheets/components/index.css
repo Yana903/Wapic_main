@@ -251,34 +251,11 @@
 
 .card img {
     width: 100%;
+    min-height: 100%;
+    height: auto;
+
 }
 .primary-color {
     color: #6fb048;
 }
 
-@media screen and (max-width: 640px) {
-    .hero h1 {
-        font-size: 38px;
-    }
-
-    .navbar-nav {
-        display: none;
-    }
-
-    .section-team, .section-about, .section-features, .section-review {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-    .grid-about .grid-item, .grid-team .grid-item {
-        width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .container-text {
-        margin-bottom: 30px;
-    }
-
-}
