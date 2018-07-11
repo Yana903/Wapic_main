@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:300,400|Roboto:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/5e35554cda/UntitledProject/style.css">
+  <link rel="stylesheet" href="images/icomoon/style.css">
 
   <title>Contacts</title>
 </head>
@@ -18,6 +19,12 @@
         <symbol id="icon-phone" viewBox="0 0 32 32">
             <title>phone</title>
             <path d="M2.8 4.8c-1.6 4 4 13.8 11.2 20 7.2 6 10.4 6.4 14.2 2 2.2-2.8 2-3.6-1.2-6-2-1.6-5.2-2.4-7.2-1.8-3.8 1.2-8.6-3.6-7.2-7.4 2.4-6.6-7.4-13.4-9.8-6.8z"></path>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 32 32">
+             <title>menu</title>
+             <path d="M0 6.080v1.6h31.36v-3.2h-31.36v1.6z"></path>
+             <path d="M0 15.68v1.6h31.808l-0.32-1.6-0.256-1.6h-31.232v1.6z"></path>
+             <path d="M0 25.28v1.6h31.808l-0.32-1.6-0.256-1.6h-31.232v1.6z"></path>
         </symbol>
       </defs>
     </svg>
@@ -45,6 +52,7 @@
                       </div>
                   </div>
                   <div class="layout-item">
+                    <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
                       <ul class="navbar-nav">
                           <li>
                               <a href="home.html" class="is-active">HOME</a>
@@ -189,7 +197,7 @@
               </div>
             </div>
             <div class="layout-item">
-              <div class="card-menu">
+              <div class="card-menu menu-mobile">
                 <span href="#" class="title-link-menu">Newsletter</span>
                 <p class="description-menu">Subscribe to our newsletter and get all the cool news</p>
                 <div class="field send">
@@ -247,8 +255,8 @@
   <!-- end footer -->
 
   </div>
-  
   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  
 </body>
 
 </html>

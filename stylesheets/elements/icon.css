@@ -43,5 +43,16 @@ svg[class*=" icon-"] {
     color: #6fb048;
 }
 
+svg[class^="icon-menu"],
+svg[class*=" icon-menu"]
+{
+    display: none;
+    color: #83a7a5;
+    font-size: 30px;
+}
+
+.icon-menu:hover {
+  color: var(--global-link-hover-color);
+}
 
 

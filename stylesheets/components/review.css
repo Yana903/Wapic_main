@@ -6,17 +6,17 @@
 }
 
 .layout-review .layout-item:first-child {
-	margin-right: 133px;
+	margin-right: 16%;
 }
 
-.image-review-block {
+.review-image {
 	height: 400px;
 	width: 400px;
 	overflow: hidden;
 	border-radius: 50%;
 }
 
-.review-photo {
+.review-image img{
 	transform: translateX(-17%);
 	min-height: 100%;
 	min-width: 100%;

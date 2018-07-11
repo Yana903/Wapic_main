@@ -22,6 +22,8 @@
 
 .logo, .navbar-nav {
     display: flex;
+    margin-top: 0;
+    align-items: center;
 }
 
 .logo li,  .navbar-nav li{
@@ -149,19 +151,17 @@ ul {
     margin-bottom: 30px;
 }
 
+.card-plan .blue {
+    background: #83a7a5;
+}
+
+.card-plan .blue:hover {
+    background: #6f8f8d;
+}
+
 .heading {
     position: relative;
     margin-bottom: 30px;
-}
-
-.heading:before {
-    top: 60px;
-    left: 85px;
-    position: absolute;
-    content: "";
-    height: 1px;
-    width: 65px;
-    background: #6fb048;
 }
 
 .layout-included .layout-item> p {
@@ -238,6 +238,10 @@ ul {
     color: #fff !important;
 }
 
+.inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6 {
+    color: #fff;
+}
+
 .heading-separator {
     width: 66px;
     margin-right: auto;
@@ -247,4 +251,11 @@ ul {
 
 .card img {
     width: 100%;
+    min-height: 100%;
+    height: auto;
+
 }
+.primary-color {
+    color: #6fb048;
+}
+
