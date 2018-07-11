@@ -173,9 +173,9 @@
     position: relative;
 }
 
-.card-included .included{
+.included{
     margin-top: 15px;
-    padding-right: 85px;
+    margin-right: 85px;
 }
 
 .included>li::before {
