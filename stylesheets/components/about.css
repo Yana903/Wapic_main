@@ -1,10 +1,11 @@
 
 .grid-about .grid-item {
 	margin-right: 40px;
-	width: calc(100% / 3 - 40px)
+	width: calc(100% / 3 - 40px);
 }
 
 .grid-about .grid-item:last-child {
 	margin-right: 0;
 }
+
 

@@ -1,11 +1,13 @@
 .grid-team .grid-item {
 	margin-right: 20px;
 	margin-left: 20px;
-	width: calc(100%/3 - 40px)
+	width: calc(100%/3 - 40px);
+	display: flex;
 }
 
 .card-team {
 	text-align: left;
+	width: 100%;
 }
 
 .card-team h6 {
