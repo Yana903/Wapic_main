@@ -15,13 +15,9 @@
 	padding-bottom: 30px;
 	margin-top: 30px;
 }
-.headings-perfect::before { 
-	content: '';
-	position: absolute;
-    height: 1px;
-    top: 47%;
-    border-bottom: 1px solid #6fb048;
-    width: 65px;
+.section-perfect {
+	display: flex;
+	flex-direction: row;
 }
 .section-perfect > .section-item-perfect {
 	width: calc(100% / 2);
@@ -63,3 +59,4 @@
 	font-size: 0.7em;
 
 }
+
