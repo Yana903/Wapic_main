@@ -22,6 +22,8 @@
 
 .logo, .navbar-nav {
     display: flex;
+    align-items: center;
+    margin-top: 0;
 }
 
 .logo li,  .navbar-nav li{
@@ -55,8 +57,8 @@
     border-right: none;
 }
 
-ul {
-    margin-bottom: 0;
+.navbar-nav {
+    margin-top: 0;
 }
 
 /*End header styles */
