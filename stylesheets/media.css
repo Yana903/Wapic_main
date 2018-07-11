@@ -12,6 +12,30 @@
     .navbar-nav {
         display: none;
     }
+    /*  perfect  */
+    .image-section {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+   /*   perfect   */
+    .section-perfect {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-perfect > .section-item-perfect {
+        width: 100%;
+    }
+    .section-perfect > .section-item-perfect:first-child {
+        display: flex;
+        justify-content: center;
+    }
+    .content-section {
+        padding-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -45,5 +69,11 @@
         text-align: center;
         flex-direction: column;
         align-items: center;
+    }
+}
+@media screen and (max-width: 454px) {
+    .section-perfect > .section-item-perfect:first-child {
+        display: inline-block;
+    
     }
 }
