@@ -236,6 +236,10 @@ ul {
     color: #fff !important;
 }
 
+.inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6 {
+    color: #fff;
+}
+
 .heading-separator {
     width: 66px;
     margin-right: auto;
@@ -248,4 +252,31 @@ ul {
 }
 .primary-color {
     color: #6fb048;
+}
+
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .section-team, .section-about, .section-features, .section-review {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+    .grid-about .grid-item, .grid-team .grid-item {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-text {
+        margin-bottom: 30px;
+    }
+
 }
